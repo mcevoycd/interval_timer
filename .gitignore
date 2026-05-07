@@ -1,3 +1,21 @@
+# ─── Xcode ────────────────────────────────────────────────────────────────────
+*.xcuserstate
+xcuserdata/
+*.moved-to-trash
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+
+# ─── Swift Package Manager ────────────────────────────────────────────────────
+.build/
+# Package.resolved is intentionally committed for reproducible builds
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ─── Python (retained from original template) ─────────────────────────────────
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
